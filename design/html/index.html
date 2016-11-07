@@ -12,10 +12,107 @@
     <script src="../style/js/jquery.min.js"></script>
     <script src="../style/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <div class="header">
+<body class="homepage">
+   <div class="header">
         <div class="container">
-            <div class="row"></div>
+            <div class="row top-container">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 left-topbar">
+                    <div class="left-block">
+                        <span class="glyphicon glyphicon-phone-alt"></span>
+                        <span> Call +001 555 801</span>
+                    </div>
+                    <div class="sub-items">
+                        <ul class="sub-items-list">
+                            <li><a href="#">All demos</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Buy me!</a></li>
+                        </ul>
+                    </div>
+                    <span class="welcome-msg">Welcome msg!</span>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pull-right text-right right-topbar">
+                    <div class="dropdown currency">
+                        <div class="currency-container">
+                            <a class="first-a" data-toggle="dropdown" href="#">
+                                <span>Currency:</span>
+                                <span>USD</span>
+                                <span class="caret">&nbsp;</span>
+                            </a>
+                            <ul class="dropdown-menu currency-switch">
+                                <li><a href="#">BRL - Brazilian Real</a></li>
+                                <li><a href="#">GBP - British Pound Sterling</a></li>
+                                <li><a href="#">CNY - Chinese Yuan</a></li>
+                                <li><a href="#">EUR - Euro</a></li>
+                                <li><a href="#">RUB - Russian Ruble</a></li>
+                                <li><a href="#">USD - US Dollar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown language">
+                        <div class="language-container">
+                            <a class="first-a" data-toggle="dropdown" href="#">
+                                <img src="../style/assets/images/uk.png">
+                                <span>English</span>
+                                <span class="caret">&nbsp;</span>
+                            </a>
+                            <ul class="dropdown-menu language-switch">
+                                <li>
+                                    <img src="../style/assets/images/uk.png">
+                                    <span>English</span>
+                                </li>
+                                <li>
+                                    <img src="../style/assets/images/de.png">
+                                    <span>Germany</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row header-primary">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 logo">
+                    <img src="../style/assets/images/logo-1.png" alt="">
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 search-input">
+                    <input type="text" value="Search entire store here..." id="search" class="input-text">
+                    <button type="submit"><span class="glyphicon glyphicon-search" <="" span=""></span></button>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 right-cart">
+                    <div class="account-links-wrapper">
+                        <div class="right-topmenu">
+                            <ul class="user-info">
+                                <li><a href="#">Account</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown compare-info">
+                            <div class="compare-container">
+                                <a class="first-a" href="#">
+                                    <i class="fa fa-square icon" aria-hidden="true"></i>
+                                    <span>Compare</span>
+                                    <span class="caret">&nbsp;</span>
+                                </a>
+                                <ul class="dropdown-menu compare-space">
+                                    <li>You have no items to compare</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dropdown cart-info">
+                            <div class="cart-container">
+                                <a class="first-a" href="#">
+                                    <i class="fa fa-square icon" aria-hidden="true"></i>
+                                    <span>Cart</span>
+                                    <span class="caret">&nbsp;</span>
+                                </a>
+                                <ul class="dropdown-menu cart-space">
+                                    <li>You have no items in cart</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
